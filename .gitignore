@@ -1,0 +1,9 @@
+node_modules/
+dist/
+tmp/
+log/
+storage/
+*.sqlite3*
+.env
+/config/master.key
+/config/credentials.yml.enc

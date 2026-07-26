@@ -1,0 +1,14 @@
+{
+  "name": "twelfths",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && mkdir -p dist/src/web && cp src/web/base.css dist/src/web/base.css",
+    "start": "node dist/src/server.js",
+    "test": "tsc -p tsconfig.json && node --test dist/test/*.test.js"
+  },
+  "dependencies": { "pg": "^8.13.1" },
+  "devDependencies": { "@types/node": "^22.10.2", "@types/pg": "^8.11.10", "typescript": "^5.7.2" }
+}
