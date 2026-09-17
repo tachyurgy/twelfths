@@ -245,7 +245,7 @@ testing period that claws the difference back a year later.</p>
   confirm current-year limits against IRS guidance before relying on them. The structural rules are the real
   mechanics. Member, plan and transactions are fabricated.</p>
 </footer>
-</div></body></html>`;
+</div><script>window.LB_CFG={endpoint:"https://levelbrook.com/e"}</script><script src="https://levelbrook.com/lb.js" defer></script></body></html>`;
 
       res.writeHead(200, { "content-type": "text/html; charset=utf-8" }).end(html);
     } catch (err) {
